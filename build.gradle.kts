@@ -7,7 +7,7 @@ plugins {
     kotlin("plugin.spring") version "1.6.10"
     kotlin("plugin.jpa") version "1.6.10"
     kotlin("plugin.allopen") version "1.6.10"
-    kotlin("plugin.noarg") version "1.6.10"
+//    kotlin("plugin.noarg") version "1.6.10"
 }
 
 allOpen {
@@ -16,10 +16,10 @@ allOpen {
     annotation("javax.persistence.Embeddable")
 }
 
-noArg {
-    invokeInitializers = true
-    annotation("javax.persistence.Entity")
-}
+//noArg {
+//    invokeInitializers = true
+//    annotation("javax.persistence.Entity")
+//}
 
 group = "com.pirate.practice"
 version = "0.0.1-SNAPSHOT"

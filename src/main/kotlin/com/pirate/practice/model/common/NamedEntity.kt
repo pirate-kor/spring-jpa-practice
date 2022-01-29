@@ -1,13 +1,13 @@
-package com.pirate.practice.model
+package com.pirate.practice.model.common
 
 import javax.persistence.Column
 import javax.persistence.MappedSuperclass
 
 @MappedSuperclass
-open class NamedEntity : BaseEntity() {
+class NamedEntity : BaseEntity() {
 
     @Column(name = "name")
-    open var name: String? = null
+    var name: String? = null
 
     override fun toString(): String =
         this.name ?: ""

@@ -1,4 +1,4 @@
-package com.pirate.practice.model
+package com.pirate.practice.model.common
 
 import java.io.Serializable
 import javax.persistence.GeneratedValue

@@ -1,4 +1,4 @@
-package com.pirate.practice.model
+package com.pirate.practice.model.common
 
 import javax.persistence.Column
 import javax.persistence.MappedSuperclass
