@@ -1,13 +1,7 @@
 package com.pirate.practice
 
-import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
-class JpaApplicationTests {
+class JpaApplicationTests()
 
-	@Test
-	fun contextLoads() {
-	}
-
-}
